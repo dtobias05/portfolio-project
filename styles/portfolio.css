@@ -35,6 +35,33 @@ p {
   line-height: 30px;
 }
 
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 40x;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #272142b2;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
+}
+
 .content-container {
   padding: 160px 20px;
   text-align: center;
@@ -110,6 +137,10 @@ p {
   height: 704px;
   width: 503px;
   border-radius: 50px;
+}
+
+.logo {
+  max-height: 40px;
 }
 
 @media (max-width: 900px) {
