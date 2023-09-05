@@ -26,9 +26,37 @@
       src="https://kit.fontawesome.com/bda7fed6cd.js"
       crossorigin="anonymous"
     ></script>
-    <title>Document</title>
+    <meta
+      name="description"
+      content="Denise's projects - Denise is a front-end engineer based in Chicago."
+    />
+    <title>Front-end developer - Denise Tobias</title>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img
+            src="images/logo.png"
+            class="logo d-none d-md-block"
+            alt="Denise logo"
+          />
+          <img
+            src="images/smlogo.png"
+            class="logo d-block d-md-none"
+            alt="Denise logo"
+          />
+        </a>
+        <ul>
+          <li><a href="/" title="Homepage">Home</a></li>
+          <li><a href="/about.html" title="About Denise">About</a></li>
+          <li class="active">
+            <a href="/work.html" title="Denise work">Work</a>
+          </li>
+          <li><a href="/contact.html" title="Contact Denise">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="content">
         <h1 class="mb-5">Take a look at what I've been working on!</h1>
@@ -38,7 +66,7 @@
             <img
               src="images/travel.png"
               class="img-fluid mb-3 rounded"
-              alt=""
+              alt="Travel app image"
             />
             <h3 class="text-center m-0">Travel Destination Project</h3>
             <p class="text-center text-muted">Built with HTML and CSS</p>
@@ -47,7 +75,7 @@
             <img
               src="images/weatherapp.png"
               class="img-fluid mb-3 rounded"
-              alt=""
+              alt="Weather app image"
             />
             <h3 class="text-center m-0">Weather App Project</h3>
             <p class="text-center text-muted">
@@ -58,7 +86,7 @@
             <img
               src="images/dictionary.png"
               class="img-fluid mb-3 rounded"
-              alt=""
+              alt="Dictionary app image"
             />
             <h3 class="text-center m-0">Dictionary App Project</h3>
             <p class="text-center text-muted">Built with HTML, CSS and React</p>
@@ -67,13 +95,67 @@
             <img
               src="images/translation.png"
               class="img-fluid mb-3 rounded"
-              alt=""
+              alt="Translation app image"
             />
             <h3 class="text-center m-0">Translation App Project</h3>
             <p class="text-center text-muted">Built with HTML, CSS and React</p>
           </div>
         </div>
       </div>
+      <footer>
+        <div
+          class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+        >
+          <div>
+            <h3>Work Inquiry</h3>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a
+              href="/contact.html"
+              class="btn btn-branding"
+              title="Contact Denise"
+              >Contact me</a
+            >
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+          <a
+            href="mailto:dtobias05@outlook.com"
+            class="email-link"
+            title="Email Denise"
+            >dtobias05@outlook.com</a
+          >
+        </div>
+        <div class="social-links text-center mb-5">
+          <a
+            href="https://instagram/dtobie"
+            target="blank"
+            title="Instagram Profile"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a
+            href="https://github.com/dtobias05"
+            target="blank"
+            title="Github Profile"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/denise-tobias-10b343165"
+            target="blank"
+            title="LinkedIn Profile"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+        </div>
+        <p class="text-center mt-5">
+          <a
+            href="https://github.com/dtobias05/portfolio-project"
+            target="blank"
+            >Open-sourced</a
+          >
+          project, coded by Denise Tobias.
+        </p>
+      </footer>
     </div>
   </body>
 </html>
