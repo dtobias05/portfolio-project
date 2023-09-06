@@ -147,11 +147,32 @@ nav li.active a {
   max-height: 40px;
 }
 
+.media-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background-color: var(--secondary-color);
+  padding: 10px 14px;
+  font-size: 20px;
+  border-radius: 50%;
+  transition: all 150ms ease-in-out;
+}
+
+.email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  text-align: center;
+}
+
 footer .email-link {
   text-decoration: none;
   color: black;
   font-size: 24px;
   text-align: center;
+}
+
+.email-link:hover {
+  color: var(--branding-color);
 }
 
 footer .email-link:hover {
